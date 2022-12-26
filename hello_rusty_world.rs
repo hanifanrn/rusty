@@ -1,5 +1,5 @@
 fn main() {
-    let mut hello = String::from("Hello");
+    let mut hello = String::from("Hello, Rusty Wrold");
 
     let mut hello1 = add_exclamation(&mut hello);
 
