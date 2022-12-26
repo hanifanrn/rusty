@@ -1,1 +1,0 @@
-/Users/hanifannurahman/Documents/1.\ personal/github/Rusty/hackerrank/a_very_big_sum/target/debug/a_very_big_sum: /Users/hanifannurahman/Documents/1.\ personal/github/Rusty/hackerrank/a_very_big_sum/src/main.rs
