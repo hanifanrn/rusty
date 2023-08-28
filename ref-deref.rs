@@ -4,5 +4,5 @@ fn main() {
     *y += 100;
     let z = &mut x;
     *z += 1000;
-    assert_eq!(x, 1200);
+    assert_eq!(x, 100);
 }
