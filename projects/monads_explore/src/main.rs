@@ -1,23 +1,20 @@
 #[derive(Debug)]
 struct NumWithLogs {
     num: i32,
-    logs: Vec<Vec<String>>,
+    logs: Vec<String>,
 }
 
 fn square(num: i32) -> NumWithLogs {
     return NumWithLogs {
         num: num * num,
-        logs: vec![vec![format!("Squared {} to get {}", num, num * num)]],
+        logs: vec![format!("Squared {} to get {}", num, num * num)],
     };
 }
 
 fn add_one(mut num: NumWithLogs) -> NumWithLogs {
     num.num = num.num + 1;
-    num.logs.push(vec![format!(
-        "Added 1 to {} to get {}",
-        num.num,
-        num.num + 1
-    )]);
+    num.logs
+        .push(format!("Added 1 to {} to get {}", num.num, num.num + 1));
 
     return num;
 }
